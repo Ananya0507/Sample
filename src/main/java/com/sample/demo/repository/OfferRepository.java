@@ -10,5 +10,5 @@ import com.sample.demo.bo.Offer;
 @Repository
 public interface OfferRepository extends CrudRepository<Offer, Integer>{
 	 /*To return List of Offers*/
-     public List<Offer> findAll();
+     List<Offer> findAll();
 }
